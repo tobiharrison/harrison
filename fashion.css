@@ -1,0 +1,318 @@
+body {
+  margin: 0 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  font-family: "verdana";
+}
+
+important {
+  color: white;
+}
+
+.padding {
+  padding: 100px;
+}
+
+.navbar {
+  background-color: #000000f9;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "verdana";
+  padding: 0px 10px;
+  color: white;
+}
+
+.navbar-brand:hover {
+  color: white !important;
+}
+
+#navbar {
+  transition: top 1.5s;
+}
+
+.main-page {
+  position: relative;
+  background-image: url(https://img.freepik.com/free-photo/fashionable-mannequin-wears-modern-hooded-jacket-generated-by-ai_188544-40166.jpg?size=626&ext=jpg&ga=GA1.2.1756046536.1682011978&semt=sph);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  filter: brightness(1px);
+  background-color: rgba(8, 8, 8, 0.409);
+}
+
+.content-header {
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  margin: 0px 0px;
+  text-align: center;
+}
+
+.content-gallery-button {
+  width: 200px;
+  margin: 0px auto;
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.content-gallery-button a {
+  text-decoration: none;
+  color: #000;
+}
+
+.main-body {
+  background-color: #000;
+}
+
+.section {
+  width: 100%;
+  height: 400px;
+}
+
+.section-header {
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
+  padding: 20px 0px;
+}
+
+.section-sub-heading {
+  font-size: 1.3em;
+  color: white;
+  font-weight: bold;
+}
+
+.section-text {
+  font-size: 0.9em;
+  font-weight: 500;
+  padding: 20px 0px;
+  color: gray;
+}
+
+.section-gallery {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  padding: 20px 0px;
+}
+
+.section-image1 {
+  position: absolute;
+  overflow: hidden;
+  bottom: 0px;
+  right: 0px;
+  width: 70%;
+  height: 350px;
+  background-image: url(https://img.freepik.com/free-psd/ripped-jean-shorts-with-tag-mockup_53876-65767.jpg?size=626&ext=jpg&uid=R92167646&ga=GA1.2.1756046536.1682011978&semt=sph);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  z-index: 2;
+  box-shadow: 0px 1px 7px 2px rgba(145, 140, 140, 0.6);
+}
+
+.section-image2 {
+  position: absolute;
+  overflow: hidden;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 250px;
+  background-image: url(https://img.freepik.com/free-psd/ripped-jean-shorts-with-tag-mockup_53876-65767.jpg?size=626&ext=jpg&uid=R92167646&ga=GA1.2.1756046536.1682011978&semt=sph);
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 0px 1px 7px 2px rgba(158, 155, 155, 0.6);
+}
+
+.intro {
+  margin-top: 200px;
+  font-size: 2.5em;
+  text-align: center;
+  color: white;
+  padding: 10px 0px;
+}
+
+.intro2 {
+  font-size: 2.5em;
+  text-align: center;
+  color: white;
+  padding: 10px 0px;
+}
+
+.title2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  font-weight: 550;
+  text-align: center;
+  color: white;
+}
+
+line {
+  border-bottom: 2px solid white;
+}
+
+.card {
+  border: 0px;
+  border-radius: 15px;
+  background-color: #000;
+}
+
+.card-img {
+  overflow: hidden;
+  border-radius: 15px;
+  width: 100%;
+  height: 200px;
+}
+
+.card-title {
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: 550;
+  color: white;
+}
+
+.card-text {
+  text-align: center;
+  font-size: 0.9em;
+  color: lightgrey;
+}
+
+.divide {
+  width: 100%;
+  height: 250px;
+  background-image: url(https://img.freepik.com/free-vector/triangular-overlaping-lights-layer-hexagonal-pattern-background_1409-1929.jpg?size=626&ext=jpg&uid=R92167646&ga=GA1.2.1756046536.1682011978&semt=ais);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h2 {
+  font-weight: 300;
+  margin-top: 150px;
+  padding: 20px;
+  letter-spacing: 3px;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 550;
+}
+
+.demo-btn {
+  display: inline-block;
+  margin: 0 2.5px 4vh 2.5px;
+  text-decoration: none;
+  color: grey;
+  padding: 15px;
+  line-height: 1;
+  min-width: 140px;
+  background: rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+}
+
+.demo-btn:hover {
+  background: rgba(0, 0, 0, 0.12);
+}
+
+@media (max-width: 640px) {
+  .demo-btn {
+    min-width: 0;
+    font-size: 14px;
+  }
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  display: none;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  width: 100%;
+  padding: 10px;
+  background-color: #00000046;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+  background-color: #00000054;
+}
+
+/* CSS for footer */
+
+.footer-highlight {
+  color: white;
+  font-size: 3em;
+  padding: 15px 0px;
+  text-decoration: underline;
+}
+
+.footer {
+  color: #fff;
+  background-color: #000;
+}
